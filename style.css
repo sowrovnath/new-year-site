@@ -5,7 +5,7 @@
 .font{
     font-family: "Merriweather", serif;
 }
-body{
+main{
     width: 1320px;
     margin: 0 auto;
 }
@@ -37,6 +37,8 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 1320px;
+
 }
 /* 65% discount */
 .main-discount{
@@ -227,3 +229,78 @@ header{
     top: 100px;
     left: 900px;
 }
+/* items */
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-bottom: 120px;
+}
+/* form */
+#email{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.6);
+    padding-left: 30px;
+    outline:none;
+    border: none;
+
+}
+.form{
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-right: 0px;
+    text-align: center;
+    padding-bottom: 50px;
+
+
+}
+#btn{
+    width: 210px;
+    height: 72px;
+    margin-left: 0px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 0 50px 50px 0;
+    border: red;
+
+}
+/* footer */
+.footer p,.contact p{
+    font-size: 24px;
+    color: white;
+}
+.contact p{
+    font-size: 24px;
+    color: white;
+
+}
+.footer{
+    border: 2px solid #070211;
+    height: 610px;
+    margin-top: 120px;
+    background-color: #070211;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.footer-2{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+ }
+.hr{
+    height: 0px;
+    margin: 0 auto;
+    width: 1320px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+} 
