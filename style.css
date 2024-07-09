@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.font{
+    font-family: "Merriweather", serif;
+}
+/* header */
+header{
+    margin: 0 auto;
+    height: 600px;
+    width: 1320px;
+    background-image: url('images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    background-color: rgba(0, 0,0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+}
+.header-p{
+    font-size: 32px;
+    color: white;
+}
+.header-h{
+    font-size: 72px;
+    color: white;
+    font-weight: bolder;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* 65% discount */
+.main-discount{
+    text-align: center;
+}
+.dicound{
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+.holiday{
+    
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 16px;
+}
+.categories{
+    
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 48px;
+}
+/* welcome section */
+.welcome{
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+    background-image: url('images/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    display: flex;
+}
+.Join{
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 48px;
+}
+.welcome-des{
+    font-size: 18px;
+    color: white;
+    padding-top: 24px;
+}
+.welcome-title{
+    font-size: 64px;
+    font-weight: bold;  
+    color: white;
+}
+.padding{
+    padding: 126px;
+}
+.img{
+    padding: 68px ;
+    padding-right: 138px;
+}
+/* address */
+.pdt{
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 10px;
+    padding: 10px 0;
+}
+.address-pdt{
+    
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 10px 0;
+}
+.address{
+    background-color: rgba(255, 0, 0, 0.1);
+    width: 1320px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    margin-top: 120px;
+    border-radius: 16px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+/* offer */
+.offer{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.off-des{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 40px;
+}
+.soon{
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    padding-bottom: 10px;
+
+}
+.new-offer{
+    color: red;
+    font-size: 24px;
+    font-weight: 600px;
+    padding-bottom: 10px;
+}
+.best-offer,.offer-des{
+    padding-top: 80px;
+}
+.best-offer{
+    margin-right:70px ;
+}
+.offer-des{
+    margin-left: 118px;
+}
+.offer-year{
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 10px;
+}
+.holyday{
+    text-align: center;
+    margin-top: 120px;
+
+}
+.holyday-function{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #070211;
+}
+.holyday-discount{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+.holyday-des{
+    font-family: "Inter", sans-serif;
+
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.red-holiday{
+    color: red;
+}
